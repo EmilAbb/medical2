@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.patiens-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.patiens-reviews{
+    display: flex;
+    background-color: #ffffff;
+}
+
+.patiens-reviews-left{
+    width: 100%;
+}
+.patiens-reviews-left .patiens-img {
+width: 570px;
+border-radius: 20px;
+
+}
+
+.patiens-reviews-right{
+    width: 100%;
+    margin-left: 28px;
+}
+
+.patiens-tittle h4{
+   font-size: 13px;
+   font-weight: 700;
+   color: #6366F1;
+}
+
+.patiens-tittle img{
+    margin-top: 42px;
+}
+
+.patiens-tittle h2{
+    font-size: 50px;
+    font-weight: 400;
+    color: #201F50;
+}
+
+.patiens-tittle p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #888888;
+    margin-top: 24px;
+}
+
+
+.patiens-name{
+    display: flex;
+    align-items: center;
+    margin-top: 31px;
+}
+
+.patiens-name img{
+ border-radius: 50%;
+ width: 70px;
+ height: 70px;
+}
+
+.patiens-name-tittle{
+    margin-left: 14px;
+}
+
+.patiens-name-tittle p:nth-child(1){
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.patiens-name-tittle p:nth-child(2){
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888;
+    margin-top: 2px;
+}
+
+.sponsor-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sponsor{
+    width: 100%;
+    max-width: 1200px;
+    height: 240px;
+    background-color: rgba(99, 102, 241, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 96px;
+}
+
+.sponsor img{
+    cursor: pointer;
+}
+
+
+.health-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    margin-top: 96px;
+    height: 879px;
+}
+
+.health-cards{
+    display: flex;
+}
+
+.health-cards-left{
+    width: 100%;
+}
+
+.health-cards-right{
+    width: 100%;
+}
+
+.health-tittle{
+    text-align: center;
+}
+
+.health-tittle h4{
+    font-size: 13px;
+    font-weight: 700;
+    color: #6366F1;
+}
+
+.health-tittle h2{
+    font-size: 50px;
+    font-weight: 400;
+    color: #201F50;
+}
+
+.health-card{
+    width: 370px;
+    margin-right: 30px;
+}
+
+.health-cards{
+    margin-top: 46px;
+}
+
+.health-card-image img{
+    width: 370px;
+    height: 250px;
+}
+
+.card-date{
+    display: flex;
+    margin-top: 15px;
+}
+
+.card-date span{
+  margin-right: 30px;
+}
+
+.card-text{
+    margin-top: 11px;
+}
+
+.card-text h2{
+    font-size: 22px;
+    font-weight: 400;
+    color: #201F50;
+    margin-bottom: 15px;
+}
+
+.card-text p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #888888;
+}
+
+
+.health-cards-left{
+    display: flex;
+}
+
+.right-card-iamge img{
+    width: 80px;
+    height: 80px;
+}
+
+.right-card{
+    display: flex;
+    margin-bottom: 11px;
+}
+
+.right-card-tittle{
+    margin-left: 15px;
+}
+
+.right-card-date{
+    margin-bottom: 6px;
+}
+.right-card-date span{
+    font-size: 13px;
+    font-weight: 500;
+    color: #AAAAAA;
+    margin-left: 7px;
+}
+
+.right-card h2{
+    font-size: 22px;
+    font-weight: 400;
+    color: #201F50;
+}
+
+.right-card{
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.health-cards-right .right-card:nth-child(4){
+    border: none;
+}
+
+.subscribe{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    height: 278px;
+    box-shadow: 0px 40px 100px 5px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    background-color: #ffffff;
+    position: relative;
+    top: -290px;
+    left: 0;
+}
+
+.subscribe-left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-left h4{
+    font-size: 13px;
+    font-weight: 700;
+    color: #6366F1;
+}
+
+.subscribe-left h2{
+    font-size: 50px;
+    font-weight: 400;
+    color: #201F50;
+    margin-left: 200px;
+}
+
+
+.subscribe-right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 430px;
+    height: 70px;
+    display: flex;
+}
+.input input{
+    width: 430px;
+    height: 70px;
+    background-color: #F1F1FE;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+.input button{
+    position: relative;
+    top: 10px;
+    left: -111px;
+    width: 130px;
+    height: 50px;
+    background: #6366F1;
+    border-radius: 7px;
+}
+
+
+
+footer{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: linear-gradient(108.64deg, rgba(69, 99, 255, 0.15) 2.35%, rgba(248, 83, 221, 0.1) 144.83%);
+
+}
+
+.footer{
+    display: flex;
+    margin-top: -380px;
+
+}
+
+.footer-left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-left-inner{
+    margin-top: 106px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+align-items: center;
+}
+
+.footer-right{
+    width: 100%;
+}
+
+.footer-logo{
+    margin-bottom: 33px;
+}
+
+.footer-left-text p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #666666;
+    margin-bottom: 17px;
+}
+
+.footer-left-text i{
+    margin-right: 10px;
+}
+
+.quick h2{
+    font-size: 25px;
+    font-weight: 400;
+    color: #201F50;
+    margin-bottom: 30px;
+}
+
+.quick-menu li{
+    margin-bottom: 15px;
+}
+.footer-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.contact-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-icons img{
+    margin-right: 10px;
+}
+
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.contact-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-right p{
+    margin-right: 180px;
+}
